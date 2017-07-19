@@ -18,6 +18,7 @@ class App extends Component {
           <p>Here is a picture of Iceland:</p>
           <BackgroundImage
             width={1/2}
+            mr={2}
             style={{float: 'left'}}
             src='https://source.unsplash.com/_7xYZOvN5TQ'
           />
