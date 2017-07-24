@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import {Provider} from 'react-redux'
-import {createStore, applyMiddleware, compose} from 'redux'
-import thunk from 'redux-thunk'
+import { Provider } from 'rebass'
+// import {createStore, applyMiddleware, compose} from 'redux'
+// import thunk from 'redux-thunk'
 // import rootReducer from './reducers'
 import App from './App'
 
@@ -16,7 +16,11 @@ import App from './App'
 // )
 
 ReactDOM.render(
-    <Provider>
+    <Provider
+      theme={{
+        font: '-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif'
+      }}
+    >
       <App />
     </Provider>,
     document.getElementById('root')

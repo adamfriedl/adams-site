@@ -6,7 +6,7 @@ const Intro = () => {
   return(
     <div>
       <Heading
-        fontSize={8}
+        fontSize={5}
         my={3}
         children="Adam Friedl"
       />
@@ -14,7 +14,6 @@ const Intro = () => {
         my={3}
         children="Web developer, lawyer, cultural observer."
       />
-      <div my={3}>
       <Link
         mr={3}
         children="Github"
@@ -30,7 +29,6 @@ const Intro = () => {
         children="Blog"
         href="http://adamfriedl.com/blog"
       />
-      </div>
     </div>
   )
 }
