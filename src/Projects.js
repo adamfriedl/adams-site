@@ -7,11 +7,15 @@ const Projects = () => {
     <div>
 
       <Heading
+        my={3}
         children='Projects'
       />
       
-      <Flex>
-        <Panel w={1/3} m={2}>
+      <Flex wrap>
+        <Panel 
+        w={[1, 1/3]}
+        mr={4}
+        >
           <PanelHeader
             children='Cafe Roulette'
           />
@@ -36,7 +40,7 @@ const Projects = () => {
           </PanelFooter>
         </Panel>
 
-        <Panel w={1/3} m={2}>
+        <Panel w={[1, 1/3]}>
           <PanelHeader
             children='Recipe Ajax'
           />
