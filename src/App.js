@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
-import {Provider} from 'react-redux'
-import surfer from './assets/img/surfer.jpg';
 import './App.css'
-import { Container, BackgroundImage } from 'rebass'
+import { Container } from 'rebass'
 import Intro from './Intro'
 import Projects from './Projects'
 

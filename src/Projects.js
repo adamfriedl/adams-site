@@ -1,35 +1,52 @@
 import React from 'react'
-import { Heading, Panel, PanelHeader, Box, PanelFooter, Text, Flex } from 'rebass'
+import { Heading, Panel, PanelHeader, Box, PanelFooter, Text, Flex, Container } from 'rebass'
 
 const Projects = () => {
 
   return(
     <div>
 
-      <Heading
-        my={3}
-        children='Projects'
-      />
-      
-      <Flex wrap>
-        <Panel 
-        w={[1, 1/3]}
-        mr={4}
+      <Flex 
+        wrap 
+        style={{alignItems: 'flex'}}
+        my={[4, 5]}
+      >
+
+        <Heading
+          f={[5, 6]}
+          w={[
+            1, 
+            1/2
+          ]}
+          children="Projects"
+        />
+
+        <Flex column
+          w={[
+            1, 
+            1/2
+          ]}
         >
-          <PanelHeader
+          
+          <Heading 
+            f={[2, 3]}
+            mt={[2, 3]}
             children='Cafe Roulette'
           />
-          <Box p={2}>
-            <p>
-              An engaging, whimsical way to choose your coffee-break destination in Midtown
-            </p>
-          </Box>
-          <PanelFooter>
+
+          <Text
+            my={[1, 2]}
+            children="An engaging, whimsical way to pick your coffee destination in Midtown Manhattan."
+          />
+
+          <Flex
+            mb={[2, 3]}
+          >
             <Text
               is='a'
               href='https://github.com/adamfriedl/caferoulette'
               children='Github'
-              mr={1}   
+              mr={2}   
             />
 
             <Text
@@ -37,24 +54,27 @@ const Projects = () => {
               href='https://caferoulette.herokuapp.com'
               children='Demo'            
             />
-          </PanelFooter>
-        </Panel>
+          </Flex>
 
-        <Panel w={[1, 1/3]}>
-          <PanelHeader
+          <Heading 
+            f={[2, 3]}
+            mt={[2, 3]}
             children='Recipe Ajax'
           />
-          <Box p={2}>
-            <p>
-              A recipe-sharing community
-            </p>
-          </Box>
-          <PanelFooter>
+
+          <Text
+            my={[1, 2]}
+            children="A recipe-sharing community."
+          />
+
+          <Flex
+            mb={[2, 3]}
+          >
             <Text
               is='a'
               href='https://github.com/adamfriedl/recipe-ajax'
               children='Github'
-              mr={1}   
+              mr={2}   
             />
 
             <Text
@@ -62,11 +82,42 @@ const Projects = () => {
               href='https://recipeajax.herokuapp.com'
               children='Demo'            
             />
-          </PanelFooter>
-        </Panel>
+          </Flex>      
+          
+          <Heading 
+            f={[2, 3]}
+            mt={[2, 3]}
+            children='Project Three'
+          />
+
+          <Text
+            my={[1, 2]}
+            children="Description for Project Three."
+          />
+
+          <Flex
+            mb={[2, 3]}
+          >
+            <Text
+              is='a'
+              href='#'
+              children='Github'
+              mr={2}   
+            />
+
+            <Text
+              is='a'
+              href='#'
+              children='Demo'            
+            />
+          </Flex>
+          
+        </Flex>
+
       </Flex>
     </div>
   )
 }
 
 export default Projects
+

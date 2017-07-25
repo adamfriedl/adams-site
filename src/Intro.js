@@ -29,7 +29,7 @@ const Intro = () => {
 
       <Flex 
         wrap 
-        style={{alignItems: 'flex-end'}}
+        style={{alignItems: 'flex'}}
         my={[4, 5]}
       >
         <Heading
@@ -42,9 +42,8 @@ const Intro = () => {
         />
         <Text
           w={[1, 1/2]}
-          children="Web developer, lawyer, and occasional drinker of smoothies."
-
-
+          mt={3}
+          children="Web developer, lawyer, and occasional drinker of smoothies. Web developer, lawyer, and occasional drinker of smoothies. Web developer, lawyer, and occasional drinker of smoothies. Web developer, lawyer, and occasional drinker of smoothies.Web developer, lawyer, and occasional drinker of smoothies.Web developer, lawyer, and occasional drinker of smoothies.Web developer, lawyer, and occasional drinker of smoothies.Web developer, lawyer, and occasional drinker of smoothies."
         /> 
       </Flex>
             
