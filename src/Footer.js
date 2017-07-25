@@ -10,7 +10,7 @@ const Footer = () => {
 
   return(
 
-    <div>
+    <div style={{marginTop: '2em'}}>
 
       <Text
         center

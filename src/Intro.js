@@ -12,6 +12,14 @@ const Intro = () => {
       />
 
       <Link
+        children="ajfriedl@gmail.com"
+        href="mailto:ajfriedl@gmail.com"
+        my={2}
+      />
+
+      <br />
+
+      <Link
         mr={3}
         children="Github"
         href="https://github.com/adamfriedl"
@@ -43,8 +51,11 @@ const Intro = () => {
         <Text
           w={[1, 1/2]}
           mt={3}
-          children="Web developer, lawyer, and occasional drinker of smoothies. Web developer, lawyer, and occasional drinker of smoothies. Web developer, lawyer, and occasional drinker of smoothies. Web developer, lawyer, and occasional drinker of smoothies.Web developer, lawyer, and occasional drinker of smoothies."
-        /> 
+        >
+        I've spent the last ten years as a lawyer and consultant, developing solutions to some of the many problems with our justice system. Along the way, I saw tech's power to solve these – and many other! – problems and I learned to code. <br /><br />        
+
+        </Text> 
+
       </Flex>
             
     </div>

@@ -10,7 +10,7 @@ const Projects = () => {
       <Flex 
         wrap 
         style={{alignItems: 'flex'}}
-        my={[4, 5]}
+        my={[2, 3]}
       >
 
         <Heading
