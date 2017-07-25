@@ -11,6 +11,8 @@ const Intro = () => {
         children="Adam Friedl"
       />
 
+      
+
       <Link
         mr={3}
         children="Github"

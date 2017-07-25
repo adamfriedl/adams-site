@@ -1,6 +1,5 @@
 import React from 'react'
 import { Text } from 'rebass'
-import fire from './assets/img/fire.svg'
 
 const Footer = () => {
 
