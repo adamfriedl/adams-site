@@ -1,5 +1,5 @@
 import React from 'react'
-import { Heading, Panel, PanelHeader, Box, PanelFooter, Text, Flex, Container } from 'rebass'
+import { Heading, Flex } from 'rebass'
 import Project from './Project'
 
 const Projects = () => {

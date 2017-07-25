@@ -1,5 +1,5 @@
 import React from 'react'
-import { Heading, Panel, PanelHeader, Box, PanelFooter, Text, Flex, Container } from 'rebass'
+import { Heading, Text, Flex} from 'rebass'
 
 const Project = ({
   title = 'My Title',

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Heading, Text, Link, Flex, Box } from 'rebass'
+import { Heading, Text, Link, Flex } from 'rebass'
 
 const Intro = () => {
 
@@ -43,7 +43,7 @@ const Intro = () => {
         <Text
           w={[1, 1/2]}
           mt={3}
-          children="Web developer, lawyer, and occasional drinker of smoothies. Web developer, lawyer, and occasional drinker of smoothies. Web developer, lawyer, and occasional drinker of smoothies. Web developer, lawyer, and occasional drinker of smoothies.Web developer, lawyer, and occasional drinker of smoothies.Web developer, lawyer, and occasional drinker of smoothies.Web developer, lawyer, and occasional drinker of smoothies.Web developer, lawyer, and occasional drinker of smoothies."
+          children="Web developer, lawyer, and occasional drinker of smoothies. Web developer, lawyer, and occasional drinker of smoothies. Web developer, lawyer, and occasional drinker of smoothies. Web developer, lawyer, and occasional drinker of smoothies.Web developer, lawyer, and occasional drinker of smoothies."
         /> 
       </Flex>
             
