@@ -1,5 +1,6 @@
 import React from 'react'
 import { Heading, Panel, PanelHeader, Box, PanelFooter, Text, Flex, Container } from 'rebass'
+import Project from './Project'
 
 const Projects = () => {
 
@@ -28,89 +29,24 @@ const Projects = () => {
           ]}
         >
           
-          <Heading 
-            f={[2, 3]}
-            mt={[2, 3]}
-            children='Cafe Roulette'
+          <Project
+            title={'Cafe Roulette'}
+            description={'An engaging, whimsical way to pick your coffee destination in Midtown Manhattan.'}
+            github={'https://github.com/adamfriedl/caferoulette'}
+            demo={'https://caferoulette.herokuapp.com'}
           />
 
-          <Text
-            my={[1, 2]}
-            children="An engaging, whimsical way to pick your coffee destination in Midtown Manhattan."
-          />
-
-          <Flex
-            mb={[2, 3]}
-          >
-            <Text
-              is='a'
-              href='https://github.com/adamfriedl/caferoulette'
-              children='Github'
-              mr={2}   
-            />
-
-            <Text
-              is='a'
-              href='https://caferoulette.herokuapp.com'
-              children='Demo'            
-            />
-          </Flex>
-
-          <Heading 
-            f={[2, 3]}
-            mt={[2, 3]}
-            children='Recipe Ajax'
-          />
-
-          <Text
-            my={[1, 2]}
-            children="A recipe-sharing community."
-          />
-
-          <Flex
-            mb={[2, 3]}
-          >
-            <Text
-              is='a'
-              href='https://github.com/adamfriedl/recipe-ajax'
-              children='Github'
-              mr={2}   
-            />
-
-            <Text
-              is='a'
-              href='https://recipeajax.herokuapp.com'
-              children='Demo'            
-            />
-          </Flex>      
+          <Project
+            title={'The Recipe Box'}
+            description={'A recipe-sharing community.'}
+            github={'https://github.com/adamfriedl/recipe-ajax'}
+            demo={'https://recipeajax.herokuapp.com'}
+          />    
           
-          <Heading 
-            f={[2, 3]}
-            mt={[2, 3]}
-            children='Project Three'
+          <Project 
+            title={'Project Three'}
+            description='Description for Project Three'
           />
-
-          <Text
-            my={[1, 2]}
-            children="Description for Project Three."
-          />
-
-          <Flex
-            mb={[2, 3]}
-          >
-            <Text
-              is='a'
-              href='#'
-              children='Github'
-              mr={2}   
-            />
-
-            <Text
-              is='a'
-              href='#'
-              children='Demo'            
-            />
-          </Flex>
           
         </Flex>
 
