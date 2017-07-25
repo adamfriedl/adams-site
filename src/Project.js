@@ -1,5 +1,5 @@
 import React from 'react'
-import { Heading, Text, Flex} from 'rebass'
+import { Heading, Text, Flex, Link } from 'rebass'
 
 const Project = ({
   title = 'My Title',
@@ -24,15 +24,13 @@ const Project = ({
     <Flex
       mb={[2, 3]}
     >
-      <Text
-        is='a'
+      <Link
         href={github}
         children='Github'
         mr={2}   
       />
 
-      <Text
-        is='a'
+      <Link
         href={demo}
         children='Demo'            
       />
