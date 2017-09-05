@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Project works when rendered shallow 1`] = `
+<div>
+  <Styled(Styled(Base))
+    f={
+      Array [
+        2,
+        3,
+      ]
+    }
+    mt={
+      Array [
+        2,
+        3,
+      ]
+    }
+  >
+    My Title
+  </Styled(Styled(Base))>
+  <Styled(Styled(Base))
+    my={
+      Array [
+        1,
+        2,
+      ]
+    }
+  >
+    My description
+  </Styled(Styled(Base))>
+  <Styled(Styled(styled.div))
+    mb={
+      Array [
+        2,
+        3,
+      ]
+    }
+  >
+    <Styled(Styled(Base))
+      href="#"
+      mr={2}
+    >
+      Github
+    </Styled(Styled(Base))>
+    <Styled(Styled(Base))
+      href="#"
+    >
+      Demo
+    </Styled(Styled(Base))>
+  </Styled(Styled(styled.div))>
+</div>
+`;
+
+exports[`should render a project 1`] = `
+<div>
+  <h2
+    className="sc-dxgOiQ jydelQ sc-kpOJdX igVeNG sc-kGXeez liylew sc-kgoBCf hEvGne"
+    is={null}
+  >
+    My Title
+  </h2>
+  <p
+    className="sc-kGXeez liylew sc-kgoBCf cimYuh"
+    is={null}
+  >
+    My description
+  </p>
+  <div
+    className="sc-bxivhb bUZGRr sc-htpNat eLQHN sc-bdVaJa lctIqv"
+  >
+    <a
+      className="sc-fjdhpX nsimD sc-jTzLTM fMyqly"
+      href="#"
+      is={null}
+    >
+      Github
+    </a>
+    <a
+      className="sc-fjdhpX nsimD sc-jTzLTM iLwSIb"
+      href="#"
+      is={null}
+    >
+      Demo
+    </a>
+  </div>
+</div>
+`;
